@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    color: #fff;
+    background-color: #54719c;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-weight: 400;
+    display: block;
     
 }
 
@@ -25,20 +33,23 @@ p#description{
 }
 
 fieldset{
-    border-radius: 3px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
     padding: 30px;
+    background-color: #942525;
+    width: 20vh;
+    
+    align-items: center;
     
 }
 
-body{
-    background-color: #c9d6ff;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    font-weight: 400;
-}
 
 form{
     margin: 5px;
+    align-items: center;
+    
+   
 }
 
 div#information input{
@@ -66,4 +77,38 @@ select{
 .container-radio input {
     transform: scale(1.5);
 }
+
+#suggestions, textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    width: 768px;
+    height: 20vh;
+    padding-left: 10px;
+    margin-bottom: 100px;
+    margin-top: 8px;
+    border-radius: 3px;
+    border: none;
+    resize: none;
+
+}
+
+button{
+
+    background-color: #27681a;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    width: 768px;
+    height: auto;
+    scale: 1.2;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+
+}
+
 
